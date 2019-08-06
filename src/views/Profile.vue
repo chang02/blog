@@ -9,6 +9,11 @@
   </v-layout>
 </template>
 <script lang="ts">
+import { Vue, Component } from 'vue-property-decorator';
+
+@Component<Profile>({})
+export default class Profile extends Vue {
+}
 </script>
 <style scoped>
 .body-1 {

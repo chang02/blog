@@ -1,7 +1,5 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Profile from '@/views/Profile.vue';
-import Resume from '@/views/Resume.vue';
 
 Vue.use(Router);
 
@@ -12,12 +10,12 @@ export default new Router({
     {
       path: '/profile',
       name: 'profile',
-      component: Profile,
+      component: () => import('./views/Profile.vue'),
     },
     {
       path: '/resume',
       name: 'resume',
-      component: Resume,
+      component: () => import('./views/Resume.vue'),
     },
   ],
 });
