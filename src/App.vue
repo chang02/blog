@@ -7,7 +7,7 @@
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <v-img src="/img/profile.png"></v-img>
+            <v-img src="img/profile.png"></v-img>
           </v-list-item-avatar>
         </v-list-item>
         <v-list-item @click="viewMode='profile'" :class="viewMode==='profile'?'purple lighten-3':''">
