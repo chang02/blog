@@ -5,7 +5,7 @@
       <v-timeline-item color="purple" small>
         <v-layout>
           <div class="time">2020.02</div>
-          <div class="content">서울대학교 졸업 (예정)</div>
+          <div class="content">서울대학교 컴퓨터공학부 졸업 (예정)</div>
         </v-layout>
       </v-timeline-item>
       <v-timeline-item color="purple" small>
@@ -29,7 +29,7 @@
       <v-timeline-item color="purple" small>
         <v-layout>
           <div class="time">2013.03</div>
-          <div class="content">서울대학교 입학</div>
+          <div class="content">서울대학교 컴퓨터공학부 입학</div>
         </v-layout>
       </v-timeline-item>
     </v-timeline>

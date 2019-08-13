@@ -10,6 +10,7 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
+import marked from 'marked';
 
 @Component<Profile>({})
 export default class Profile extends Vue {
