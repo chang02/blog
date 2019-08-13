@@ -10,7 +10,7 @@
             <v-img src="img/profile.png"></v-img>
           </v-list-item-avatar>
         </v-list-item>
-        <v-list-item @click="viewMode='profile'" :class="viewMode==='profile'?'purple lighten-3':''">
+        <v-list-item>
           <v-list-item-content>
             <v-list-item-title class="title">이창영(Lee Chang Young)</v-list-item-title>
             <v-list-item-subtitle>chang0022@snu.ac.kr</v-list-item-subtitle>
@@ -38,7 +38,6 @@
       </v-list>
     </v-navigation-drawer>
     <v-content>
-      <profile v-if="viewMode === 'profile'" />
       <resume v-if="viewMode === 'resume'" />
       <portfolio v-if="viewMode === 'portfolio'" />
     </v-content>
@@ -47,18 +46,16 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import Profile from '@/views/Profile.vue';
 import Resume from '@/views/Resume.vue';
 import Portfolio from '@/views/Portfolio.vue';
 
 @Component<App>({
   components: {
-    Profile,
     Resume,
     Portfolio,
   },
 })
 export default class App extends Vue {
-  private viewMode: string = 'profile';
+  private viewMode: string = 'resume';
 }
 </script>
