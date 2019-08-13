@@ -1,5 +1,5 @@
 <template>
-  <v-app id="app">
+  <v-app id="app" dark>
     <v-navigation-drawer
       app width="200" permanent
       :expand-on-hover="$vuetify.breakpoint.smAndDown"
@@ -57,5 +57,8 @@ import Portfolio from '@/views/Portfolio.vue';
 })
 export default class App extends Vue {
   private viewMode: string = 'resume';
+  public created() {
+    this.$vuetify.theme.dark = true;
+  }
 }
 </script>
