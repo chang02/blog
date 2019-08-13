@@ -1,7 +1,7 @@
 <template>
   <v-app id="app">
     <v-navigation-drawer
-      app width="300" permanent
+      app width="200" permanent
       :expand-on-hover="$vuetify.breakpoint.smAndDown"
     >
       <v-list>
@@ -12,7 +12,7 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title class="title">이창영(Lee Chang Young)</v-list-item-title>
+            <v-list-item-title class="title">이창영</v-list-item-title>
             <v-list-item-subtitle>chang0022@snu.ac.kr</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
