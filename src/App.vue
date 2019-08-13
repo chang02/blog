@@ -1,8 +1,8 @@
 <template>
   <v-app id="app">
     <v-navigation-drawer
-      app width="300"
-      :expand-on-hover="$vuetify.breakpoint.smAndDown" permanent
+      app width="300" permanent
+      :expand-on-hover="$vuetify.breakpoint.smAndDown"
     >
       <v-list>
         <v-list-item>
