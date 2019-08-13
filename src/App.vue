@@ -57,8 +57,5 @@ import Portfolio from '@/views/Portfolio.vue';
 })
 export default class App extends Vue {
   private viewMode: string = 'resume';
-  public created() {
-    this.$vuetify.theme.dark = true;
-  }
 }
 </script>
