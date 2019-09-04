@@ -33,15 +33,15 @@
       <span class="body-1">- 운영체제</span>
       <span class="body-1">- 데이터베이스</span>
       <span class="subtitle-1 mt-2 font-weight-bold">2018-1</span>
-      <span class="body-1">- 자료구조</span>
-      <span class="body-1">- 알고리즘</span>
+      <a href="https://github.com/chang02/data_structure"><span class="body-1">- 자료구조</span></a>
+      <a href="https://github.com/chang02/alg"><span class="body-1">- 알고리즘</span></a>
       <span class="body-1">- 데이터마이닝 개론</span>
       <span class="body-1">- 창의적통합설계2</span>
       <span class="subtitle-1 mt-2 font-weight-bold">2018-2</span>
       <span class="body-1">- 전기전자회로</span>
-      <span class="body-1">- 프로그래밍언어</span>
+      <a href="https://github.com/chang02/pl"><span class="body-1">- 프로그래밍언어</span></a>
       <span class="subtitle-1 mt-2 font-weight-bold">2019-1</span>
-      <span class="body-1">- 컴퓨터그래픽스</span>
+      <a href="https://github.com/chang02/graphics"><span class="body-1">- 컴퓨터그래픽스</span></a>
       <span class="body-1">- 소프트웨어응용</span>
       <span class="body-1">- 컴퓨터시스템특강</span>
     </v-layout>
@@ -54,6 +54,8 @@
       <div v-html="markdown3"></div>
       <v-divider class="my-4" />
       <div v-html="markdown4"></div>
+      <v-divider class="my-4" />
+      <div v-html="markdown5"></div>
     </v-layout>
   </v-layout>
 </template>
@@ -64,6 +66,7 @@ import content1 from '@/posts/post1';
 import content2 from '@/posts/post2';
 import content3 from '@/posts/post3';
 import content4 from '@/posts/post4';
+import content5 from '@/posts/post5';
 
 @Component<Portfolio>({})
 export default class Portfolio extends Vue {
@@ -76,6 +79,7 @@ export default class Portfolio extends Vue {
   private markdown2: string = content2;
   private markdown3: string = content3;
   private markdown4: string = content4;
+  private markdown5: string = content5;
 }
 </script>
 <style scoped>

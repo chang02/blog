@@ -22,6 +22,6 @@ Full Stack Development
 큰 규모는 아니지만 처음 경험하는 실 서비스 중인 프로젝트 개발.  
 html, css, javascript, jQeury 능숙하게 사용.  
 Django Model을 통한 Database 관리.  
-필요한 데이터를 Database로부터 읽고 쓰고 가공하여 Front-End와 통신.  
+필요한 데이터를 Database로부터 읽고 쓰고 가공하여 Front-End와 주고받을 줄 알게 됨.  
 `);
 export default content;
