@@ -6,7 +6,6 @@
       <div><span class="body-1">이름</span>:<span class="body-2">이창영 (Lee Chang Young)</span></div>
       <div><span class="body-1">생년월일</span>:<span class="body-2">1995. 02. 15</span></div>
       <div><span class="body-1">병역</span>:<span class="body-2">공군 병장 만기전역(2014.12.22 ~ 2016.12.21)</span></div>
-      <div><span class="body-1">이메일</span>:<span class="body-2">chang0022@snu.ac.kr</span></div>
       <div><span class="body-1">연락처</span>:<span class="body-2">010-7564-0062</span></div>
     </div>
     <div class="title my-3">경력</div>
