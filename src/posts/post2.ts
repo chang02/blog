@@ -23,5 +23,14 @@ Full Stack Development
 html, css, javascript, jQeury 능숙하게 사용.  
 Django Model을 통한 Database 관리.  
 필요한 데이터를 Database로부터 읽고 쓰고 가공하여 Front-End와 주고받을 줄 알게 됨.  
+
+**메인 페이지**  
+![메인페이지](img/codewings/1.png)  
+**강의 대기실**  
+![강의대기실](img/codewings/2.png)  
+**강의실 내부**  
+![강의실내부](img/codewings/3.png)  
+**학습, 일정 관리 페이지**  
+![학습일정관리](img/codewings/4.png)  
 `);
 export default content;

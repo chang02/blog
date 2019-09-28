@@ -61,7 +61,6 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import marked from 'marked';
 import content1 from '@/posts/post1';
 import content2 from '@/posts/post2';
 import content3 from '@/posts/post3';
@@ -82,5 +81,8 @@ export default class Portfolio extends Vue {
   private markdown5: string = content5;
 }
 </script>
-<style scoped>
+<style>
+img {
+  width: 700px;
+}
 </style>

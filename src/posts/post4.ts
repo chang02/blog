@@ -20,6 +20,18 @@ application들을 돌릴 수 있는 deep block app 추가 - 클라우드와의 �
 기존 코드에 typescript 적용.
 
 **의의**  
-이 전까지의 프로젝트 경험에 비해 깔끔한 구조 및 코드 작성을 위해 노력함.
+이 전까지의 프로젝트 경험에 비해 깔끔한 구조 및 코드 작성을 위해 노력함.  
+
+**메인 페이지**  
+![메인페이지](img/deepblock/1.png)  
+**프로젝트 페이지**  
+현재 사용자가 소유하고 있는 프로젝트 목록을 보여주고 새로운 프로젝트를 생성할 수 있다.  
+![프로젝트페이지](img/deepblock/2.png)  
+**프로젝트 내부 모습 및 이미지 Annotate 툴**  
+![프로젝트내부](img/deepblock/3.png)  
+**학습 진행 상황 그래프**  
+![학습진행상황그래프](img/deepblock/4.png)  
+**예측한 샘플 데이터**  
+![예측한샘플데이터](img/deepblock/5.png)  
 `);
 export default content;
