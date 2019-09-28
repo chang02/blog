@@ -9,12 +9,11 @@
       <div><span class="body-1">이메일</span>:<span class="body-2">chang0022@snu.ac.kr</span></div>
       <div><span class="body-1">연락처</span>:<span class="body-2">010-7564-0062</span></div>
     </div>
-    <div class="title my-3">학력, 경력</div>
+    <div class="title my-3">경력</div>
     <div class="ml-4">
       <div><span class="time">2019.02 ~ </span><span class="content">(주)Omnis Labs</span><span class="etc">(Front End Web Developer)</span></div>
       <div><span class="time">2018.01 ~ 2018.10</span><span class="content">코드윙즈</span><span class="etc">(Full Stack Web Developer)</span></div>
       <div><span class="time">2017.08</span><span class="content">(주)씨엠에스 에듀</span><span class="etc">(인턴)</span></div>
-      <div><span class="time">2013.03 ~ 2020.02</span><span class="content">서울대학교 컴퓨터공학부</span><span class="etc">(졸업 예정)</span></div>
     </div>
   </v-layout>
 </template>
